@@ -26,7 +26,7 @@ public class ProductController {
 @Autowired
 ProductDao productDao;
 
-@PostMapping("/")
+@GetMapping("/")
 public  String home() {
 	System.out.print("Hello");
 	Map<String, String> map=new HashMap();
